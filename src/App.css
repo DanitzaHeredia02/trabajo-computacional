@@ -1,0 +1,46 @@
+.main {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 30%;
+  height: 100%;
+}
+.form * {
+  margin-left: 20px;
+}
+.form button {
+  margin-top: 15px;
+}
+.form label {
+  margin-left: 0px;
+}
+.graficos {
+  width: 70%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.booleanMatrix {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.booleanMatrix .row {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.booleanMatrix .cell {
+  padding: 5px 10px;
+  border: 1px solid gray;
+}
+
